@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class = "logo"><img src="static/images/Hope.png" width="53"></a>
+                    <a href="index.html" class = "logo2"><strong align="middle">Health Wallet</strong></a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="signup.html">Sign Up</a>
+						<a href="login.html">Login</a>
+						<a href="donate.html">Donate</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Three -->
+		<center><section id="three" class="wrapper">
+			<div class="inner">
+				<header>
+					<h2>Sign Up to become a HealthCare Provider!</h2>
+				</header>
+
+				<div class="field half first" style="width: 575px">
+                    <label for="Fname">First name: <br><h1>Please note that your name will not be shared</h1></label>
+                    <input id="Fname" class="Fname" type="text" ><br>
+                </div>
+
+                <div class="field half first" style="width: 575px">
+                    <label for="Lname">Last name: <br><h1>Please note that your name will not be shared</h1></label>
+                    <input id="Lname" class="Lname" type="text" ><br>
+                </div>
+                <div class="field half first" style="width: 575px">
+                    <label for="Lname">Please provide your professional credentials: <br><h1>Note: This will be used for background check</h1></label>
+                    <input id="Lname" class="Lname" type="text" ><br>
+                </div>
+
+				<form method="post" action="">
+					<fieldset data-role="controlgroup">
+					<Label>Gender:</label>
+					  <input type="radio" name="gender" id="male" value="male">
+					  <label for="male">Male</label>
+					  <input type="radio" name="gender" id="female" value="female">
+					  <label for="female">Female</label>
+					  <input type="radio" name="gender" id="other" value="other">
+					  <label for="other">Other</label>
+					</fieldset>
+				</form>
+				<div class="image round">
+				<form method="post" action="">
+					<fieldset data-role="avatar">
+					<Label>Avatar:</label>
+					  <input type="radio" name="avatar" id="ava1" value="ava1">
+					  <label for="ava1"><img src="static/images/aw.jpg" width="53"></label>
+					  <input type="radio" name="avatar" id="ava2" value="ava2">
+					  <label for="ava2"><img src="static/images/Avatar 9.jpg" width="53"></label>
+					  <input type="radio" name="avatar" id="ava3" value="ava3">
+					  <label for="ava3"><img src="static/images/aa.jpg" width="53"></label>
+					  <input type="radio" name="avatar" id="ava4" value="ava4">
+					  <label for="ava4"><img src="static/images/Avatar 1.jpg" width="53"></label>
+					  <input type="radio" name="avatar" id="ava5" value="ava5">
+					  <label for="ava5"><img src="static/images/Avatar41111.jpeg" width="53"></label>
+					</fieldset>
+				</form>
+				</div>
+				<form action="#">
+					<label>Please create a username: </label>
+					<input type="text" name="username" style="width: 575px">
+				  </form>
+				<div data-role="main" class="ui-content">
+
+					<div class="wrapper">
+							<span id="nameplace"><label>OR use our Username Generator</label>
+							<form class="form">
+								<button type="button" id="gen-button">Generate</button>
+							</form>
+
+					</div>
+				</div>
+
+					<form action="#">
+						<label>Please select your expected availability:</label>
+							<select name="Help" style="width: 575px";>
+							  <option value="select" selected="selected">Select</option>
+							  <option value="1_Patient">1 Patient</option>
+							  <option value="2_Patient">2 Patients</option>
+							  <option value="3_Patient">3 Patients</option>
+							  <option value="4_ORPatient">4 or more Patients</option>
+							</select>
+				   </form>
+
+				<form action="#" method="post">
+					<div class="field first" style="width: 575px";>
+						<label for="name">Zip code:</label>
+						<input id="zip_code" class="zipcode" type="text" value = "" pattern="\d*">
+					</div>
+				</form>
+				<form action="#">
+					<label>Please select what you would want to help with:</label>
+						<select name="Help" style="width: 575px";>
+						  <option value="select" selected="selected">Select</option>
+						  <option value="Alcohol">Alcohol</option>
+						  <option value="Anxiety">Anxiety</option>
+						  <option value="Mental_Illness">Mental Illness</option>
+						  <option value="Cocaine">Cocaine</option>
+						  <option value="depression">Depression</option>
+						  <option value="DMT">DMT</option>
+						  <option value="GHB">GHB</option>
+						  <option value="Hallucinogens">Hallucinogens</option>
+						  <option value="Heroin">Heroin</option>
+						  <option value="Inhalants">Inhalants</option>
+						  <option value="Ketamine">Ketamine</option>
+						  <option value="LSD">LSD</option>
+						  <option value="Marijuana">Marijuana</option>
+						  <option value="MDMA">MDMA (Ecstasy/Molly)</option>
+						  <option value="Mescaline">Mescaline</option>
+						  <option value="Methamphetamine">Methamphetamine</option>
+						  <option value="Over_the_Counter_Medicines">Over-the-Counter Medicines</option>
+						  <option value="PCP">PCP</option>
+						  <option value="Prescription_Opioids">Prescription Opioids</option>
+						  <option value="Prescription_Stimulants">Prescription Stimulants</option>
+						  <option value="Steroids">Steroids (Anabolic)</option>
+						  <option value="Tobacco">Tobacco</option>
+						</select>
+						<br><br>
+						<input type="submit" value="Submit">
+			   </form>
+		</section></center>
+
+	<!-- Footer -->
+		<footer id="footer">
+				<div class="copyright" style="padding-top:30px; padding-bottom:30px;">
+					&copy; Designed by HyV with &hearts; for Hyland Hackathon, 2020.
+				</div>
+
+		</footer>
+
+	<!-- Scripts -->
+		<script src="public/js/jquery.min.js"></script>
+		<script src="public/js/skel.min.js"></script>
+		<script src="public/js/util.js"></script>
+		<script src="public/js/main.js"></script>
+		<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="f25919f0-af3f-414f-91ce-8f81a101a6f1";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+          <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+          <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/donate.css" />
+  </head>
+
+  <body>
+  <!-- Header -->
+			<header id="header">
+				<div class="inner" style="background-color: #6cc091;">
+					<a href="index.html" class = "logo"><img src="static/images/Hope.png" width="53"></a>
+                    <a href="index.html" class = "logo2"><strong align="middle">Health Wallet</strong></a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="signup.html">Sign Up</a>
+						<a href="login.html">Login</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+  <div class="donation-container">
+
+              <div class="donation-box">
+                  <div class="title">Donation Information</div>
+
+                  <div class="fields">
+                      <input type="text" id="firstName" placeholder="First Name"> </input>
+                      <input type="text" id="lastName" placeholder="Last Name"> </input>
+                      <input type="text" id="email" placeholder="Email"> </input>
+                  </div>
+
+                  <div class="amount">
+                      <div class="button">$30</div>
+                      <div class="button">$50</div>
+                      <div class="button">$100</div>
+                      <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+                  </div>
+
+                  <div class="switch">
+                      <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+                      <label for="one-time" class="switch-label switch-label-off">One-Time</label>
+                      <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+                      <label for="monthly" class="switch-label switch-label-on">Monthly</label>
+                      <span class="switch-selection"></span>
+                  </div>
+
+                  <div class="checkboxes">
+                      <input type="checkbox" id="receipt" class="checkbox" />
+                      <label for="receipt">Email Me A Receipt</label>
+                      <br />
+                      <input type="checkbox" id="anon" class="checkbox" />
+                      <label for="anon">Give Anonymously</label>
+                      <br />
+                      <input type="checkbox" id="list" class="checkbox" />
+                      <label for="list">Add Me To Email List</label>
+                  </div>
+
+                  <div class="confirm">
+
+                  </div>
+
+                  <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
+              </div>
+
+          </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://raw.githubusercontent.com/jerryluk/jquery.autogrow/master/jquery.autogrow-min.js"></script>
+  <script src="public/js/jquery.min.js"></script>
+  <script src="public/js/skel.min.js"></script>
+  <script src="public/js/util.js"></script>
+  <script src="public/js/main.js"></script>
+  <script src="public/js/donate.js"></script>
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="f25919f0-af3f-414f-91ce-8f81a101a6f1";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+  </body>
+  </html>
